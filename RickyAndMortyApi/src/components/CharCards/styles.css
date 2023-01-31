@@ -1,0 +1,38 @@
+img {
+    width: 170px;
+}
+
+.card-green,
+.card-red {
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    width: 200px;
+    height: 290px;
+    border-radius: 8px;
+    padding: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: .6rem;
+}
+
+.card-green {
+    background-color: #F1F7FF;
+}
+
+.card-red {
+    background-color: #F8CCCE;
+}
+
+h3 {
+    color: rgba(0, 0, 0, 0.4);
+}
+
+span {
+    font-size: .6rem;
+    color: rgba(0, 0, 0, 0.3);
+}
+
+p {
+    font-size: .9rem;
+    color: rgba(0, 0, 0, 0.2)
+}
